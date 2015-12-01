@@ -1,0 +1,63 @@
+html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      #map {
+        height: 75%;
+        width: 60%;
+        margin: 10px 40% 10px 30px;
+      }
+      #directions {
+      	background-color: white;
+        //height: 75%;
+        width: 30%;
+        float: right;
+        //overflow: hidden;
+        margin-right: 5%;
+        margin-bottom: 10px;
+      }
+#floating-panel {
+	background-color: #fff;
+  border: 1px solid #999;
+  min-height: 110px;
+  text-align: center;
+  font-family: 'Roboto','sans-serif';
+  line-height: 30px;
+  margin: 20px auto;
+  width: 300px;
+}
+#floating-panel h2{
+	padding: 5px 15px;
+}
+#demo {
+	z-index: 5;
+}
+button {
+	z-index: 5;
+}
+#panic{
+	color: red;
+	border: 1px red solid;
+	padding: 10px 20px;
+	margin: auto;
+	text-decoration: none;
+	text-align: center;
+	width: 20%;
+	border-radius: 5px;
+}
+#panic:hover{
+	color: white;
+	background-color: red;
+}
+@media(max-width: 500px ){
+	#directions{
+		float: none;
+		width: 90%;
+		margin: auto;
+	}
+	#map{
+		width: 90%;
+		margin: auto;
+	}
+}
