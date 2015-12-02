@@ -50,14 +50,42 @@ button {
 	color: white;
 	background-color: red;
 }
+#panic2{
+  display: none;
+  float: right;
+  color: red;
+  border: 1px red solid;
+  padding: 10px 20px;
+  margin-right: 10%;
+  text-decoration: none;
+  text-align: center;
+  width: 20%;
+  border-radius: 5px;
+}
+#panic2:hover{
+  color: white;
+  background-color: red;
+}
+
 @media(max-width: 500px ){
 	#directions{
 		float: none;
 		width: 90%;
 		margin: auto;
 	}
+  #panic{
+    width: 40%;
+  }
+  #panic2{
+    float: none;
+    margin: 15px auto;
+    width: 40%;
+  }
 	#map{
 		width: 90%;
 		margin: auto;
 	}
+  #floating-panel{
+    clear: right;
+  }
 }

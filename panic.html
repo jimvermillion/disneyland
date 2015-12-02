@@ -1,4 +1,6 @@
 <!DOCTYPE html>
+<!-- Don't worry, this site lets the user rest easy knowing their escape to Disney parks from wherever they are at.
+It is a simple website that pulls the user's location from the html5 api and gives them directions to DisneyLand then to DisneyWorld via google's map api. Content is refreshed on the page without the page being refreshed.  --> 
 <html>
 <head>
     <meta content="initial-scale=1.0, user-scalable=no" name="viewport">
@@ -7,16 +9,17 @@
     <link href="panic.css" rel="stylesheet">
 </head>
 <body>
-    <div id="floating-panel"><h2>HELLO.</h2></div>
+    <h2 id="panic2">STILL PANICKING?</h2>
+    <div id="floating-panel">
+        <h2>HELLO.</h2>
+    </div>
     <h2 id="panic">PANIC BUTTON</h2>
     <div id="directions"></div>
     <div id="map"></div>
-    <script async defer src="https://maps.googleapis.com/maps/api/js?">
-    </script> 
     <script src=
     "https://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js" type=
-    "text/javascript">
-    </script> 
+    "text/javascript"></script> 
+    <script async defer src="https://maps.googleapis.com/maps/api/js?"></script> 
     <script src="panic.js" type="text/javascript">
     </script>
 </body>
